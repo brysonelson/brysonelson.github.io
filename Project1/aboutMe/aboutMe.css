@@ -1,0 +1,208 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    box-sizing:border-box;
+    background: white;
+}
+
+nav {
+    width: 100%;
+    border-style: none;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    box-shadow: 0px 5px 50px 0px #888888c9;
+    float: left;
+    position: fixed;
+    background: white;
+    margin-top: -15px;
+    margin-left: -8px;
+    padding-bottom: 8px;
+    background-image: url("./assets/headerBackground.jpg");
+    position: fixed;
+}
+
+.name {
+    width: 49%;
+    float: left;
+    box-sizing:border-box;
+
+}
+
+h1 {
+    box-sizing:border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:19px;
+    height:70px;
+    margin-left: 140px;
+    margin-right: 210px;
+    margin-bottom:0px;
+    margin-top: 0px;
+    text-shadow:-1px -1px 5px #33323281, 1px -1px 5px #33323281, -1px 1px 5px #33323281, 1px 1px 5px #33323281;
+    color: #f7f9fb;
+}
+
+button {
+    width: 28%;
+    float: left;
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 8px;
+    height: 50px;
+    margin-top:9px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    text-shadow:-1px -1px 5px #33323281, 1px -1px 5px #33323281, -1px 1px 5px #33323281, 1px 1px 5px #33323281;
+    font-size: 16px;
+
+}
+
+.buttons {
+    float: left;
+    width: 50%;
+    padding-left: 250px;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing:border-box;
+    height: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+
+a:link {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+}
+
+.mainphrase {
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'Advent Pro', sans-serif;
+    background: #000;
+    color: #fff;
+    mix-blend-mode: multiply;
+    opacity: .3;
+    padding-bottom: 111px;
+    margin-top: 70px;
+    border-radius: 8px; 
+    width: 60%;
+    padding-right:-100;
+    margin-left:-100;
+    
+}
+
+.mainphrase h1 {
+    width: 100%;
+    padding: 0;
+  
+}
+
+section {
+    box-sizing:border-box;
+    padding-top: 120px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+    
+}
+
+h2 {
+    padding-left: 66px;
+    margin-top: 2px;
+    color: #635c48;
+    font-size: 30px;
+}
+
+hr {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.aboutMe {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -55px;
+    margin-bottom:-29px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-style: bold;
+    background: white;
+}
+
+.aboutsection {
+    border: none;
+    padding: 30px;
+    background: #c9cac0;
+    border-radius: 2px;
+    box-shadow: 0px 0px 50px 0px #88888856;
+
+}
+
+.aboutMeText {
+    background-color: black;
+    color: white;
+    mix-blend-mode: lighten;
+    width: 70%;
+}
+
+.profilepic {
+    width:20%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 65px;
+    padding-top: 15px;
+}
+
+p {
+    line-height: 2;
+    margin-left: 65px;
+    padding-right: 65px;
+}
+
+footer {
+    position:fixed;
+    bottom:0px;
+    height: 50px;
+    width: 100%;
+    background: #BDBDA5;
+    margin-left: -8px;
+    box-shadow: 0px -5px 50px 0px #888888c9;
+
+}
+
+.copyright {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+    color: #635c48;
+
+}
+
+.footerText {
+    height: 50px;
+    padding-bottom: 20px;
+    box-sizing:border-box;
+    bottom:21px;
+    position:relative;
+}

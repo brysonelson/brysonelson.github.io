@@ -1,0 +1,252 @@
+/* * {
+    border: solid red 2px;
+  }*/
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    box-sizing:border-box;
+    background: white;
+}
+
+nav {
+    width: 100%;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0;
+    float: left;
+    position: fixed;
+    background: white;
+    margin-top: -15px;
+    margin-left: -8px;
+    padding-bottom: 170px;
+    background-image: url("../aboutMe/assets/headerBackground.jpg");
+    box-shadow: 0px -20px 200px #000;
+}
+
+.name {
+    width: 48%;
+    float: left;
+    box-sizing:border-box;
+
+}
+
+h1 {
+    box-sizing:border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:19px;
+    height:70px;
+    margin-left: 140px;
+    margin-right: 210px;
+    margin-bottom:0px;
+    margin-top: 0px;
+    text-shadow:-1px -1px 5px #33323281, 1px -1px 5px #33323281, -1px 1px 5px #33323281, 1px 1px 5px #33323281;
+    color: #f7f9fb;
+}
+
+.buttons button {
+    width: 28%;
+    float: left;
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 8px;
+    height: 50px;
+    margin-top:9px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    text-shadow:-1px -1px 5px #33323281, 1px -1px 5px #33323281, -1px 1px 5px #33323281, 1px 1px 5px #33323281;
+    font-size: 16px;
+
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    transition: .5s;
+    font-size: 17px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+
+a:link {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+}
+
+.buttons {
+    float: left;
+    width: 50%;
+    padding-left: 250px;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing:border-box;
+    height: 50px;
+}
+
+.mainphrase {
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'Advent Pro', sans-serif;
+    color: #fff;
+    mix-blend-mode: multiply;
+    opacity: .3;
+    padding-bottom: 111px;
+    margin-top: 70px;
+    border-radius: 8px; 
+    width: 60%;
+    padding-right:-100;
+    margin-left:-100;
+    
+}
+
+.mainphrase h1 {
+    width: 100%;
+    padding: 0;
+    text-shadow: 0px 0px 50px #000;
+}
+
+footer {
+    position:fixed;
+    bottom:0px;
+    height: 50px;
+    width: 100%;
+    background: #BDBDA5;
+    margin-left: -8px;
+    box-shadow: 20px 20px 200px #000;
+}
+
+.copyright {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+    color: white;
+
+}
+
+.footerText {
+    height: 50px;
+    padding-bottom: 0px;
+    box-sizing:border-box;
+    bottom:0px;
+    position:absolute;
+    bottom:0px;
+    color: #635c48;
+    margin-top:0;
+    margin-bottom:-10px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.class {
+    background: #C3CAC2;
+    position:fixed;
+    top:483px;
+    right:0px;
+    height: 250px;
+    width: 100%;
+    padding-left: 20px;
+    box-shadow: 20px 20px 400px #000;
+}
+
+.outlets {
+    position:relative;
+    left:0;
+    top:45px;
+    background: #C3CAC2;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    color: white;
+    background: #C3CAC2;
+    text-shadow:-1px -1px 5px #9e9a9a28, 1px -1px 5px #9e9a9a28, -1px 1px 5px #9e9a9a28, 1px 1px 5px #9e9a9a28;
+}
+
+.about {
+    float: left;
+    width: 33%;
+    background: #C3CAC2;
+}
+
+.portfolio {
+    float: left;
+    width: 33%;
+    background: #C3CAC2;
+}
+
+.contact {
+    float: left;
+    width: 33%;
+    background: #C3CAC2;
+
+}
+
+
+.social {
+    position:relative;
+    left: 35px;
+    top: -150px;
+    font-size: 50px;
+    margin: auto;
+    padding: 0;
+    color: white;
+    background: #C3CAC2;
+    text-align: center;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 0px;
+    margin-top:0px;
+}
+
+.facebook {
+    width: 19%;
+    float: left;
+    background: #C3CAC2;
+    margin: -5px;
+}
+
+.linkedin {
+    width: 19%;
+    float: left;
+    background: #C3CAC2;
+}
+
+.github {
+    width: 19%;
+    float: left;
+    background: #C3CAC2;
+}
+
+.twitter {
+    width: 19%;
+    float: left;
+    background: #C3CAC2;
+}
+
+.instagram {
+    width: 19%;
+    float: left;
+    background: #C3CAC2;
+}
+
+.outlets {
+    background-color: #C3CAC2;
+    text-decoration: none;
+}
+
