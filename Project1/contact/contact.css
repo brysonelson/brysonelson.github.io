@@ -141,9 +141,10 @@ footer {
 }
 
 hr {
-    width: 75%;
+    width: 70%;
     margin: auto;
     margin-bottom: 30px;
+    margin-top: 40px;
 }
 
 .formsection {
