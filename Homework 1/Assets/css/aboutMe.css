@@ -3,7 +3,6 @@ body {
     font-size: 20px;
     box-sizing:border-box;
     background: white;
-    
 }
 
 nav {
@@ -19,7 +18,8 @@ nav {
     margin-top: -15px;
     margin-left: -8px;
     padding-bottom: 8px;
-    background-image: url("../aboutMe/assets/headerBackground.jpg");
+    background-image: url("../images/headerBackground.jpg");
+    position: fixed;
 }
 
 .name {
@@ -47,8 +47,8 @@ button {
     width: 28%;
     float: left;
     margin: auto;
-    margin-left: -7px;
-    margin-right: 19px;
+    margin-left: 2px;
+    margin-right: 8px;
     height: 50px;
     margin-top:9px;
     background-color: transparent;
@@ -62,7 +62,7 @@ button {
 .buttons {
     float: left;
     width: 50%;
-    padding-left: 250px;
+    padding-left: 245px;
     padding-right: 0;
     margin-right: 0;
     box-sizing:border-box;
@@ -75,6 +75,8 @@ button a:hover {
     background: transparent;
     transition: .5s;
     font-size: 17px;
+    text-shadow:-3px -3px 15px 5px #000, 3px -3px 15px 5px #000, -3px 3px 15px 5px #000, 3px 3px 15px 5px #000;
+
 }
 
 a:visited {
@@ -89,37 +91,97 @@ a:link {
     color: white;
 }
 
+.mainphrase {
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'Advent Pro', sans-serif;
+    background: #000;
+    color: #fff;
+    mix-blend-mode: multiply;
+    opacity: .3;
+    padding-bottom: 111px;
+    margin-top: 70px;
+    border-radius: 8px; 
+    width: 60%;
+    padding-right:-100;
+    margin-left:-100;
+    
+}
+
+.mainphrase h1 {
+    width: 100%;
+    padding: 0;
+  
+}
+
 section {
     box-sizing:border-box;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 120px;
     width: 70%;
     margin: auto;
     margin-bottom: 100px;
-    background: #c9cac0;
-    position: relative;
-    top:120px;
-    border-radius: 2px;
-    box-shadow: 0px 0px 50px 0px #88888856;
-    z-index: -1;
-}
-
-img {
-    width: 25%;
-    margin-left: 35px;
-    padding-left:25px;
-    margin-bottom: 20px;
+    
 }
 
 h2 {
-    padding-left: 96px;
+    padding-left: 66px;
+    margin-top: 3px;
     color: #635c48;
+    font-size: 30px;
+    padding-bottom: 2px;
 }
 
 hr {
-    width: 70%;
+    width: 75%;
     margin: auto;
     margin-bottom: 30px;
+    
+}
+
+.aboutMe {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -55px;
+    margin-bottom:-29px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-style: bold;
+    background: white;
+}
+
+.aboutsection {
+    border: none;
+    padding: 30px;
+    background: #c9cac0;
+    border-radius: 2px;
+    box-shadow: 0px 0px 50px 0px #88888856;
+
+}
+
+.aboutMeText {
+    background-color: black;
+    color: white;
+    mix-blend-mode: lighten;
+    width: 70%;
+}
+
+.profilepic {
+    width:20%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 65px;
+    padding-top: 15px;
+}
+
+p {
+    line-height: 2;
+    margin-left: 65px;
+    padding-right: 65px;
+    color: #68604c;
 }
 
 footer {
@@ -130,6 +192,7 @@ footer {
     background: #BDBDA5;
     margin-left: -8px;
     box-shadow: 0px -5px 50px 0px #888888c9;
+
 }
 
 .copyright {
@@ -137,11 +200,18 @@ footer {
     margin: auto;
     text-align: center;
     height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     box-sizing:border-box;
-    position: absolute;
-    left: 577px;
-    bottom: 20px;
     color: #635c48;
 
+}
+
+.footerText {
+    height: 50px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+    bottom: -22px;
+    left: 600px;
+    position:absolute;
+    
 }
